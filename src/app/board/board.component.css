@@ -1,0 +1,7 @@
+.grid-container{
+    /* Using css to make my list of 16 items appear as 4x4 */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    gap: 0px;
+    max-width: fit-content;
+}

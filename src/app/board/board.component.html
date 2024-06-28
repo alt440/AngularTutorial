@@ -1,0 +1,10 @@
+
+<div class="grid-container">
+    <app-square *ngFor="let val of squares" [id]="val.id">
+    </app-square>
+</div>
+
+<input type="button" (click)="checkSquareStatus()" value="Validate">
+<div>
+    <label class="returnMessageValidate">{{statusMessage}}</label>
+</div>

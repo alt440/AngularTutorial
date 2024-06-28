@@ -1,0 +1,19 @@
+.squareContainer{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+
+.centerTextSquare{
+    width: 50%;
+}
+
+.valueSquare{
+    border: transparent;
+    width: 100%;
+    font-size: 30px;
+}
