@@ -1,10 +1,13 @@
+<div class="titleApp">Magic Square Validator</div>
 
 <div class="grid-container">
     <app-square *ngFor="let val of squares" [id]="val.id">
     </app-square>
 </div>
 
-<input type="button" (click)="checkSquareStatus()" value="Validate">
-<div>
-    <label class="returnMessageValidate">{{statusMessage}}</label>
+<div class="validationSection">
+    <input class="btnValidation" type="button" (click)="checkSquareStatus()" value="Validate">
+    <div class="textContainer">
+        <label class="returnMessageValidate">{{statusMessage}}</label>
+    </div>
 </div>

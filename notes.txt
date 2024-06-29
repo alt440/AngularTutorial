@@ -1,0 +1,5 @@
+PS C:\Users\testM\Documents\codingProjects\AngularTutorial> ng serve
+ng : File C:\Users\testM\AppData\Roaming\npm\ng.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+
+--> Delete the file for the command 'ng serve' to work

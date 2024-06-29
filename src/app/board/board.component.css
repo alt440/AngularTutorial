@@ -1,7 +1,59 @@
+.titleApp{
+    font-size: 40px;
+    flex: 1;
+    text-align: center;
+    color: #ebebeb;
+}
+
 .grid-container{
     /* Using css to make my list of 16 items appear as 4x4 */
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
     gap: 0px;
     max-width: fit-content;
+    flex: 1;
+}
+
+.validationSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-width: 33%;
+    max-width: 33%;
+}
+
+.textContainer{
+    text-wrap: wrap;
+    max-width: 70%;
+    text-align: center;
+    min-height: 100px;
+    color: #ebebeb;
+    font-size: 24px;
+}
+
+app-square:nth-child(2n+1){
+    background-color: #fb8500;
+}
+
+app-square:nth-child(2n){
+    background-color: #ffb703;
+}
+
+.btnValidation{
+    background-color: #ffb703;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    box-shadow: rgba(235, 235, 235, 0.4) 0 2px 4px,rgba(235, 235, 235, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    transition: box-shadow 0.15s, transform 0.15s;
+}
+
+.btnValidation:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+    box-shadow: rgba(235, 235, 235, 0.4) 0 4px 8px, rgba(235, 235, 235, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
 }

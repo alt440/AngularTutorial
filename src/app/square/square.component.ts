@@ -20,6 +20,6 @@ export class SquareComponent {
 
   onInputChange(event: Event){
     this.numberValue = Number((event.target as HTMLInputElement).value);
-    console.log(this.numberValue);
+    //console.log(this.numberValue);
   }
 }
