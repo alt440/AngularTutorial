@@ -3,6 +3,10 @@ Small magic square validator using Angular
 
 
 
+https://github.com/alt440/AngularTutorial/assets/35940672/59370e4f-b5dd-4f57-b8ef-c6918dbdfa3b
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8. You will need Angular CLI to help with this application (and recognize the 'ng' command).
 
 ## Development server
