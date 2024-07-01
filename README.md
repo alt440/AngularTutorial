@@ -1,15 +1,14 @@
 # AngularTutorial
 Small magic square validator using Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8. You will need Angular CLI to help with this application (and recognize the 'ng' command).
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server from the main folder of this project. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
